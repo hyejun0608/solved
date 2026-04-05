@@ -4,7 +4,7 @@
 from queue import Queue;
 
 # input 입력받기
-N, M, V = map(int, "5 5 3".split())
+N, M, V = map(int, input().split())
 
 # graph 리스트 만들기
 graph = [[] for _ in range(N + 1)]
